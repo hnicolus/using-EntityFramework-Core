@@ -12,16 +12,8 @@ namespace Example
                 Title = "Avengers",
                 Description = "Avengers is a Sci movie full of super heros Killing Villains."
             };
-
             var movieService = new MovieService();
-
             movieService.Create(movie);
-        }
-
-        static void AddMovie()
-        {
-
-
         }
     }
 }
